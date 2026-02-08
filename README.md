@@ -1,16 +1,16 @@
-# 🎓 Refonte Site Web SUPMTI Meknès
+#  Refonte Site Web SUPMTI Meknès
 
-## 📋 Description du Projet
+##  Description du Projet
 Refonte complète et moderne du site web de l'École Supérieure SUPMTI Meknès, créée dans le cadre du projet d'examen de Développement Web - Prof. MOUNCIF Hamza.
 
-## ✨ Caractéristiques Principales
+##  Caractéristiques Principales
 
 ### Design Moderne & Créatif
-- ✅ **Palette de Couleurs Sophistiquée** : Bleu profond (#0a2540) et doré (#d4af37)
-- ✅ **Typographie Distinctive** : Playfair Display (titres) + Sora (corps de texte)
-- ✅ **Animations Fluides** : Transitions CSS, Animate.css, et AOS
-- ✅ **Effets Interactifs** : Hover effects avec Hover.css
-- ✅ **Design Asymétrique** : Layouts modernes et dynamiques
+-  **Palette de Couleurs Sophistiquée** : Bleu profond (#0a2540) et doré (#d4af37)
+-  **Typographie Distinctive** : Playfair Display (titres) + Sora (corps de texte)
+-  **Animations Fluides** : Transitions CSS, Animate.css, et AOS
+-  **Effets Interactifs** : Hover effects avec Hover.css
+-  **Design Asymétrique** : Layouts modernes et dynamiques
 
 ### Technologies Utilisées
 | Technologie | Version | Usage |
@@ -25,7 +25,7 @@ Refonte complète et moderne du site web de l'École Supérieure SUPMTI Meknès,
 | AOS | 2.3.1 | Animations au scroll |
 | Font Awesome | 6.4.0 | Icônes vectorielles |
 
-## 📂 Structure du Site
+##  Structure du Site
 
 ### 1. Header + Navbar
 - Navigation fixe avec effet de transparence au scroll
@@ -93,7 +93,7 @@ Refonte complète et moderne du site web de l'École Supérieure SUPMTI Meknès,
   - Email : contact@supmtimeknes.ac.ma
 - Copyright et crédits
 
-## 🎨 Fonctionnalités Interactives
+##  Fonctionnalités Interactives
 
 ### Animations et Effets
 1. **Scroll Animations** : AOS (Fade, Zoom, Flip)
@@ -117,7 +117,7 @@ Refonte complète et moderne du site web de l'École Supérieure SUPMTI Meknès,
 - Console welcome message
 - Easter egg (Konami code)
 
-## 📱 Responsive Design
+##  Responsive Design
 
 ### Breakpoints
 - **Desktop** : > 991px
@@ -132,7 +132,7 @@ Refonte complète et moderne du site web de l'École Supérieure SUPMTI Meknès,
 - Images optimisées
 - Boutons pleine largeur sur mobile
 
-## 🚀 Installation et Utilisation
+##  Installation et Utilisation
 
 ### Méthode 1 : Utilisation Simple
 1. Télécharger les 3 fichiers :
@@ -159,7 +159,7 @@ npx http-server
 # Puis ouvrir : http://localhost:8000
 ```
 
-## 📦 Dépendances (CDN)
+##  Dépendances (CDN)
 
 Toutes les bibliothèques sont chargées via CDN (aucune installation requise) :
 
@@ -192,47 +192,47 @@ https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js
 https://unpkg.com/aos@2.3.1/dist/aos.js
 ```
 
-## 🎯 Conformité aux Exigences
+##  Conformité aux Exigences
 
-### ✅ Structure Minimale Obligatoire
-- [x] Header + Navbar
-- [x] Section 1 (Hero avec carousel)
-- [x] Section 2 (Statistiques)
-- [x] Section 3 (Formations)
-- [x] Section 4 (Témoignages)
-- [x] Section 5 (Partenaires)
-- [x] Footer avec contact
+###  Structure Minimale Obligatoire
+-  Header + Navbar
+-  Section 1 (Hero avec carousel)
+-  Section 2 (Statistiques)
+-  Section 3 (Formations)
+-  Section 4 (Témoignages)
+-  Section 5 (Partenaires)
+-  Footer avec contact
 
-### ✅ Technologies Obligatoires
-- [x] HTML5
-- [x] CSS3
-- [x] JavaScript
-- [x] jQuery
-- [x] Bootstrap
-- [x] Animate.css
-- [x] Hover.css
+###  Technologies Obligatoires
+-  HTML5
+-  CSS3
+-  JavaScript
+-  jQuery
+-  Bootstrap
+-  Animate.css
+-  Hover.css
 
-### ✅ Exigences UI
-- [x] Design moderne et créatif
-- [x] Carousels fonctionnels
-- [x] Cards avec effets
-- [x] Animations fluides
-- [x] Transitions CSS
-- [x] Site responsive (mobile, tablette, desktop)
-- [x] Cohérence graphique (couleurs, typographie, alignement)
+###  Exigences UI
+-  Design moderne et créatif
+-  Carousels fonctionnels
+-  Cards avec effets
+-  Animations fluides
+-  Transitions CSS
+-  Site responsive (mobile, tablette, desktop)
+-  Cohérence graphique (couleurs, typographie, alignement)
 
-## 🎨 Palette de Couleurs
+##  Palette de Couleurs
 
 ```css
---primary-dark: #0a2540    /* Bleu profond */
---primary-medium: #1e4976  /* Bleu moyen */
---primary-light: #2d5f8d   /* Bleu clair */
---accent-gold: #d4af37     /* Or */
---accent-gold-light: #f4d03f /* Or clair */
---accent-teal: #17a2b8     /* Turquoise */
+--primary-dark: #0a2540    - Bleu profond 
+--primary-medium: #1e4976  - Bleu moyen 
+--primary-light: #2d5f8d   - Bleu clair 
+--accent-gold: #d4af37     - Or 
+--accent-gold-light: #f4d03f - Or clair 
+--accent-teal: #17a2b8     - Turquoise 
 ```
 
-## 📝 Personnalisation
+##  Personnalisation
 
 ### Modifier les Couleurs
 Éditer les variables CSS dans `styles.css` :
@@ -261,7 +261,7 @@ AOS.init({
 });
 ```
 
-## 🔧 Optimisations Incluses
+##  Optimisations Incluses
 
 1. **Performance** :
    - Debounce sur les événements scroll
@@ -287,7 +287,7 @@ AOS.init({
    - Indicateurs de chargement
    - États hover clairs
 
-## 🌟 Fonctionnalités Bonus
+##  Fonctionnalités Bonus
 
 - **Scroll Progress Bar** : Barre de progression en haut
 - **Custom Cursor** : Curseur personnalisé sur desktop
@@ -296,14 +296,14 @@ AOS.init({
 - **Console Art** : Message de bienvenue dans la console
 - **Floating Animations** : Cards avec animations continues
 
-## 📞 Support et Contact
+##  Support et Contact
 
 Pour toute question ou assistance :
 - **Email** : contact@supmtimeknes.ac.ma
 - **Téléphone** : 06 45 62 70 70
 - **Adresse** : Al kobera VN, 35 Rue Badr, Meknès
 
-## 👨‍🏫 Crédits
+##  Crédits
 
 **Projet d'Examen - Développement Web**
 - **Professeur** : MOUNCIF Hamza
@@ -312,10 +312,9 @@ Pour toute question ou assistance :
 
 ---
 
-## 📄 Licence
+##  Licence
 
 Ce projet est réalisé dans un cadre éducatif pour SUPMTI Meknès.
 
----
 
-**Développé avec ❤️ et les meilleures pratiques du développement web moderne**
+
