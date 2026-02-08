@@ -462,20 +462,13 @@ $(document).ready(function() {
     $(window).on('scroll', debouncedScroll);
 
     // ========== CONSOLE WELCOME MESSAGE ==========
-    console.log('%c🎓 Bienvenue sur le nouveau site de SUPMTI Meknès! 🎓', 'color: #d4af37; font-size: 20px; font-weight: bold;');
-    console.log('%cDéveloppé avec ❤️ par Prof. Mouncif Hamza', 'color: #1e4976; font-size: 14px;');
+    console.log('%c Bienvenue sur le nouveau site de SUPMTI Meknès! 🎓', 'color: #d4af37; font-size: 20px; font-weight: bold;');
+    console.log('%cDéveloppé avec  par Prof. Mouncif Hamza', 'color: #1e4976; font-size: 14px;');
     console.log('%cTechnologies: HTML5, CSS3, JavaScript, jQuery, Bootstrap, Animate.css, AOS', 'color: #6c757d; font-size: 12px;');
 
 }); // End of Document Ready
 
-// ========== VANILLA JS: PAGE VISIBILITY API ==========
-document.addEventListener('visibilitychange', function() {
-    if (document.hidden) {
-        document.title = '😢 Vous nous manquez déjà! - SUPMTI';
-    } else {
-        document.title = 'SUPMTI Meknès - École d\'Excellence en Ingénierie & Management';
-    }
-});
+
 
 // ========== SERVICE WORKER FOR OFFLINE SUPPORT (Progressive Enhancement) ==========
 if ('serviceWorker' in navigator) {
@@ -485,13 +478,7 @@ if ('serviceWorker' in navigator) {
     });
 }
 
-// ========== PREVENT CONTEXT MENU ON IMAGES (Optional) ==========
-// Uncomment if you want to protect images
-// document.addEventListener('contextmenu', function(e) {
-//     if (e.target.tagName === 'IMG') {
-//         e.preventDefault();
-//     }
-// });
+
 
 // ========== ADD CUSTOM CSS FOR ADDITIONAL EFFECTS ==========
 const customStyles = `
