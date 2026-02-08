@@ -1,0 +1,990 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SUPMTI Meknès - École d'Excellence en Ingénierie & Management</title>
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Animate.css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    
+    <!-- Hover.css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&family=Sora:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- AOS Library -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Header & Navigation -->
+    <header class="fixed-top">
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <div class="container-fluid px-4">
+                <a class="navbar-brand animate__animated animate__fadeIn" href="#">
+                    <span class="brand-text">SUPMTI</span>
+                    <span class="brand-subtitle">Meknès</span>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link hvr-underline-from-center" href="#accueil">Accueil</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link hvr-underline-from-center" href="#statistiques">À propos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link hvr-underline-from-center" href="#formations">Formations</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link hvr-underline-from-center" href="#temoignages">Témoignages</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link hvr-underline-from-center" href="#partenaires">Partenaires</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link hvr-underline-from-center" href="#contact">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="btn btn-cta hvr-grow" href="https://inscriptions.supmtimeknes.ac.ma/inscriptions-2021-2022/" target="_blank">
+                                Candidater
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Section 1: Hero Carousel -->
+    <section id="accueil" class="hero-section">
+        <div id="heroCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="5000">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="0" class="active"></button>
+                <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="2"></button>
+            </div>
+            
+            <div class="carousel-inner">
+                <!-- Slide 1 -->
+                <div class="carousel-item active">
+                    <div class="hero-overlay"></div>
+                    <div class="hero-bg" style="background-image: linear-gradient(135deg, #0a2540 0%, #1e4976 100%);"></div>
+                    <div class="container hero-content">
+                        <div class="row align-items-center min-vh-100">
+                            <div class="col-lg-7">
+                                <h1 class="hero-title animate__animated animate__fadeInUp">
+                                    Excellence en <br>
+                                    <span class="highlight">Ingénierie</span> & <br>
+                                    <span class="highlight">Management</span>
+                                </h1>
+                                <p class="hero-description animate__animated animate__fadeInUp animate__delay-1s">
+                                    École supérieure privée accréditée par l'État, formant les leaders de demain dans un environnement d'innovation et d'excellence académique.
+                                </p>
+                                <div class="hero-buttons animate__animated animate__fadeInUp animate__delay-2s">
+                                    <a href="#formations" class="btn btn-hero-primary hvr-grow me-3">
+                                        Découvrir nos formations
+                                    </a>
+                                    <a href="#contact" class="btn btn-hero-secondary hvr-grow">
+                                        Contactez-nous
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-lg-5">
+                                <div class="hero-visual animate__animated animate__fadeInRight animate__delay-1s">
+                                    <div class="floating-card">
+                                        <i class="fas fa-graduation-cap"></i>
+                                        <h3>Formation d'Excellence</h3>
+                                        <p>Diplômes accrédités BAC+3 & BAC+5</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Slide 2 -->
+                <div class="carousel-item">
+                    <div class="hero-overlay"></div>
+                    <div class="hero-bg" style="background-image: linear-gradient(135deg, #1e4976 0%, #2d5f8d 100%);"></div>
+                    <div class="container hero-content">
+                        <div class="row align-items-center min-vh-100">
+                            <div class="col-lg-7">
+                                <h1 class="hero-title animate__animated animate__fadeInUp">
+                                    Ingénierie <br>
+                                    <span class="highlight">Informatique</span> <br>
+                                    & <span class="highlight">Réseaux</span>
+                                </h1>
+                                <p class="hero-description animate__animated animate__fadeInUp animate__delay-1s">
+                                    Devenez expert en systèmes informatiques, intelligence artificielle, réseaux et télécommunications avec nos programmes d'ingénierie de pointe.
+                                </p>
+                                <div class="hero-buttons animate__animated animate__fadeInUp animate__delay-2s">
+                                    <a href="#formations" class="btn btn-hero-primary hvr-grow">
+                                        Programmes d'ingénierie
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-lg-5">
+                                <div class="hero-visual animate__animated animate__fadeInRight animate__delay-1s">
+                                    <div class="floating-card">
+                                        <i class="fas fa-laptop-code"></i>
+                                        <h3>Innovation Technologique</h3>
+                                        <p>Certifications CISCO, MICROSOFT, ORACLE</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Slide 3 -->
+                <div class="carousel-item">
+                    <div class="hero-overlay"></div>
+                    <div class="hero-bg" style="background-image: linear-gradient(135deg, #2d5f8d 0%, #0a2540 100%);"></div>
+                    <div class="container hero-content">
+                        <div class="row align-items-center min-vh-100">
+                            <div class="col-lg-7">
+                                <h1 class="hero-title animate__animated animate__fadeInUp">
+                                    Management & <br>
+                                    <span class="highlight">Finance</span> <br>
+                                    Internationale
+                                </h1>
+                                <p class="hero-description animate__animated animate__fadeInUp animate__delay-1s">
+                                    Formez-vous au management stratégique, à la finance d'entreprise et aux relations internationales pour une carrière globale réussie.
+                                </p>
+                                <div class="hero-buttons animate__animated animate__fadeInUp animate__delay-2s">
+                                    <a href="#formations" class="btn btn-hero-primary hvr-grow">
+                                        Programmes de management
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-lg-5">
+                                <div class="hero-visual animate__animated animate__fadeInRight animate__delay-1s">
+                                    <div class="floating-card">
+                                        <i class="fas fa-globe"></i>
+                                        <h3>Ouverture Internationale</h3>
+                                        <p>Double diplomation & mobilité internationale</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#heroCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+        </div>
+    </section>
+
+    <!-- Section 2: Statistiques -->
+    <section id="statistiques" class="stats-section py-5">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-12 mb-5" data-aos="fade-up">
+                    <h2 class="section-title">SUPMTI en Chiffres</h2>
+                    <div class="title-underline"></div>
+                    <p class="section-subtitle">Des résultats qui témoignent de notre excellence</p>
+                </div>
+            </div>
+            
+            <div class="row g-4">
+                <div class="col-md-4" data-aos="flip-left" data-aos-delay="100">
+                    <div class="stat-card hvr-float">
+                        <div class="stat-icon">
+                            <i class="fas fa-book-open"></i>
+                        </div>
+                        <div class="stat-number">
+                            <span class="counter" data-target="8">0</span>
+                        </div>
+                        <h3 class="stat-label">Filières Accréditées</h3>
+                        <p class="stat-description">Programmes BAC+3 et BAC+5 reconnus par l'État</p>
+                        <div class="stat-decoration"></div>
+                    </div>
+                </div>
+
+                <div class="col-md-4" data-aos="flip-left" data-aos-delay="200">
+                    <div class="stat-card hvr-float">
+                        <div class="stat-icon">
+                            <i class="fas fa-user-graduate"></i>
+                        </div>
+                        <div class="stat-number">
+                            <span class="counter" data-target="1500">0</span>+
+                        </div>
+                        <h3 class="stat-label">Lauréats</h3>
+                        <p class="stat-description">Diplômés et actifs sur le marché du travail</p>
+                        <div class="stat-decoration"></div>
+                    </div>
+                </div>
+
+                <div class="col-md-4" data-aos="flip-left" data-aos-delay="300">
+                    <div class="stat-card hvr-float">
+                        <div class="stat-icon">
+                            <i class="fas fa-globe-africa"></i>
+                        </div>
+                        <div class="stat-number">
+                            <span class="counter" data-target="15">0</span>+
+                        </div>
+                        <h3 class="stat-label">Nationalités</h3>
+                        <p class="stat-description">Étudiants internationaux de divers horizons</p>
+                        <div class="stat-decoration"></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Features Row -->
+            <div class="row mt-5 g-4">
+                <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
+                    <div class="feature-box hvr-grow">
+                        <div class="feature-icon">
+                            <i class="fas fa-certificate"></i>
+                        </div>
+                        <h4>Accréditation État</h4>
+                        <p>Tous nos diplômes sont reconnus et accrédités par le Ministère de l'Enseignement Supérieur</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-4" data-aos="fade-up" data-aos-delay="200">
+                    <div class="feature-box hvr-grow">
+                        <div class="feature-icon">
+                            <i class="fas fa-handshake"></i>
+                        </div>
+                        <h4>Double Diplomation</h4>
+                        <p>Partenariats avec l'Université de Lorraine, Groupe IGS, ISTEC pour une formation internationale</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-4" data-aos="fade-up" data-aos-delay="300">
+                    <div class="feature-box hvr-grow">
+                        <div class="feature-icon">
+                            <i class="fas fa-award"></i>
+                        </div>
+                        <h4>Certifications</h4>
+                        <p>Formations certifiantes CISCO, MICROSOFT, ORACLE, SAGE incluses dans le cursus</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 3: Formations -->
+    <section id="formations" class="formations-section py-5">
+        <div class="container">
+            <div class="row text-center mb-5">
+                <div class="col-12" data-aos="fade-up">
+                    <h2 class="section-title">Nos Formations</h2>
+                    <div class="title-underline"></div>
+                    <p class="section-subtitle">Choisissez votre parcours vers l'excellence</p>
+                </div>
+            </div>
+
+            <!-- Tabs Navigation -->
+            <div class="row mb-5">
+                <div class="col-12">
+                    <ul class="nav nav-pills formations-tabs justify-content-center" id="formationsTabs" role="tablist" data-aos="fade-up">
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link active hvr-grow" id="ingenierie-tab" data-bs-toggle="pill" data-bs-target="#ingenierie" type="button">
+                                <i class="fas fa-laptop-code me-2"></i>Ingénierie
+                            </button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link hvr-grow" id="management-tab" data-bs-toggle="pill" data-bs-target="#management" type="button">
+                                <i class="fas fa-briefcase me-2"></i>Management
+                            </button>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Tabs Content -->
+            <div class="tab-content" id="formationsTabsContent">
+                <!-- Ingénierie Tab -->
+                <div class="tab-pane fade show active" id="ingenierie" role="tabpanel">
+                    <div class="row g-4">
+                        <!-- BAC+3 Ingénierie -->
+                        <div class="col-lg-6" data-aos="zoom-in" data-aos-delay="100">
+                            <div class="formation-card hvr-float">
+                                <div class="formation-badge">BAC+3</div>
+                                <div class="formation-icon">
+                                    <i class="fas fa-code"></i>
+                                </div>
+                                <h3 class="formation-title">Ingénierie Intelligente des Systèmes Informatiques</h3>
+                                <p class="formation-description">
+                                    Devenez un spécialiste des systèmes d'information avec une expertise en développement logiciel, bases de données et intelligence artificielle.
+                                </p>
+                                <ul class="formation-features">
+                                    <li><i class="fas fa-check-circle"></i> Programmation avancée</li>
+                                    <li><i class="fas fa-check-circle"></i> Gestion de bases de données</li>
+                                    <li><i class="fas fa-check-circle"></i> Intelligence artificielle</li>
+                                    <li><i class="fas fa-check-circle"></i> Développement web & mobile</li>
+                                </ul>
+                                <a href="#contact" class="btn btn-formation hvr-grow">
+                                    En savoir plus <i class="fas fa-arrow-right ms-2"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                        <!-- BAC+5 Option 1 -->
+                        <div class="col-lg-6" data-aos="zoom-in" data-aos-delay="200">
+                            <div class="formation-card hvr-float">
+                                <div class="formation-badge">BAC+5</div>
+                                <div class="formation-icon">
+                                    <i class="fas fa-brain"></i>
+                                </div>
+                                <h3 class="formation-title">Ingénierie Intelligente des Systèmes d'Informations et Communications</h3>
+                                <p class="formation-description">
+                                    Devenez expert en ingénierie intelligente avec une spécialisation en systèmes d'information et technologies de communication avancées.
+                                </p>
+                                <ul class="formation-features">
+                                    <li><i class="fas fa-check-circle"></i> Architecture des SI</li>
+                                    <li><i class="fas fa-check-circle"></i> Cloud computing</li>
+                                    <li><i class="fas fa-check-circle"></i> Big Data & Analytics</li>
+                                    <li><i class="fas fa-check-circle"></i> IoT & Systèmes embarqués</li>
+                                </ul>
+                                <a href="#contact" class="btn btn-formation hvr-grow">
+                                    En savoir plus <i class="fas fa-arrow-right ms-2"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                        <!-- BAC+5 Option 2 -->
+                        <div class="col-lg-12" data-aos="zoom-in" data-aos-delay="300">
+                            <div class="formation-card formation-card-wide hvr-float">
+                                <div class="row align-items-center">
+                                    <div class="col-md-8">
+                                        <div class="formation-badge">BAC+5</div>
+                                        <div class="formation-icon">
+                                            <i class="fas fa-network-wired"></i>
+                                        </div>
+                                        <h3 class="formation-title">Ingénierie Intelligente des Systèmes Réseaux et Télécommunications</h3>
+                                        <p class="formation-description">
+                                            Devenez expert en ingénierie des réseaux et télécommunications avec une maîtrise des infrastructures modernes et de la sécurité réseau.
+                                        </p>
+                                        <ul class="formation-features">
+                                            <li><i class="fas fa-check-circle"></i> Administration réseaux</li>
+                                            <li><i class="fas fa-check-circle"></i> Sécurité informatique</li>
+                                            <li><i class="fas fa-check-circle"></i> Télécommunications avancées</li>
+                                            <li><i class="fas fa-check-circle"></i> Certifications CISCO</li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-md-4 text-center">
+                                        <a href="#contact" class="btn btn-formation btn-formation-large hvr-grow">
+                                            En savoir plus <i class="fas fa-arrow-right ms-2"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Management Tab -->
+                <div class="tab-pane fade" id="management" role="tabpanel">
+                    <div class="row g-4">
+                        <!-- BAC+3 Management Entreprise -->
+                        <div class="col-lg-6" data-aos="zoom-in" data-aos-delay="100">
+                            <div class="formation-card hvr-float">
+                                <div class="formation-badge">BAC+3</div>
+                                <div class="formation-icon">
+                                    <i class="fas fa-building"></i>
+                                </div>
+                                <h3 class="formation-title">Management de l'Entreprise</h3>
+                                <p class="formation-description">
+                                    Devenez spécialiste en management stratégique d'entreprise avec une expertise en gestion, finance et ressources humaines.
+                                </p>
+                                <ul class="formation-features">
+                                    <li><i class="fas fa-check-circle"></i> Gestion d'entreprise</li>
+                                    <li><i class="fas fa-check-circle"></i> Marketing & Communication</li>
+                                    <li><i class="fas fa-check-circle"></i> Comptabilité & Finance</li>
+                                    <li><i class="fas fa-check-circle"></i> Management RH</li>
+                                </ul>
+                                <a href="#contact" class="btn btn-formation hvr-grow">
+                                    En savoir plus <i class="fas fa-arrow-right ms-2"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                        <!-- BAC+3 Management International -->
+                        <div class="col-lg-6" data-aos="zoom-in" data-aos-delay="200">
+                            <div class="formation-card hvr-float">
+                                <div class="formation-badge">BAC+3</div>
+                                <div class="formation-icon">
+                                    <i class="fas fa-globe-americas"></i>
+                                </div>
+                                <h3 class="formation-title">Management et Développement International</h3>
+                                <p class="formation-description">
+                                    Devenez expert en management et développement international avec une vision globale des affaires et du commerce mondial.
+                                </p>
+                                <ul class="formation-features">
+                                    <li><i class="fas fa-check-circle"></i> Commerce international</li>
+                                    <li><i class="fas fa-check-circle"></i> Négociation interculturelle</li>
+                                    <li><i class="fas fa-check-circle"></i> Stratégie globale</li>
+                                    <li><i class="fas fa-check-circle"></i> Langues & Business</li>
+                                </ul>
+                                <a href="#contact" class="btn btn-formation hvr-grow">
+                                    En savoir plus <i class="fas fa-arrow-right ms-2"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                        <!-- BAC+5 Management Relations -->
+                        <div class="col-lg-6" data-aos="zoom-in" data-aos-delay="300">
+                            <div class="formation-card hvr-float">
+                                <div class="formation-badge">BAC+5</div>
+                                <div class="formation-icon">
+                                    <i class="fas fa-handshake"></i>
+                                </div>
+                                <h3 class="formation-title">Management et Relations Internationales</h3>
+                                <p class="formation-description">
+                                    Devenez leader en management et relations internationales avec une expertise en diplomatie économique et développement international.
+                                </p>
+                                <ul class="formation-features">
+                                    <li><i class="fas fa-check-circle"></i> Relations internationales</li>
+                                    <li><i class="fas fa-check-circle"></i> Diplomatie économique</li>
+                                    <li><i class="fas fa-check-circle"></i> Géopolitique des affaires</li>
+                                    <li><i class="fas fa-check-circle"></i> Leadership global</li>
+                                </ul>
+                                <a href="#contact" class="btn btn-formation hvr-grow">
+                                    En savoir plus <i class="fas fa-arrow-right ms-2"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                        <!-- BAC+5 Finance Audit -->
+                        <div class="col-lg-6" data-aos="zoom-in" data-aos-delay="400">
+                            <div class="formation-card hvr-float">
+                                <div class="formation-badge">BAC+5</div>
+                                <div class="formation-icon">
+                                    <i class="fas fa-chart-line"></i>
+                                </div>
+                                <h3 class="formation-title">Finance, Audit et Contrôle de Gestion</h3>
+                                <p class="formation-description">
+                                    Devenez expert en finance et contrôle stratégique avec une maîtrise de l'audit, du contrôle de gestion et de l'analyse financière.
+                                </p>
+                                <ul class="formation-features">
+                                    <li><i class="fas fa-check-circle"></i> Audit financier</li>
+                                    <li><i class="fas fa-check-circle"></i> Contrôle de gestion</li>
+                                    <li><i class="fas fa-check-circle"></i> Finance d'entreprise</li>
+                                    <li><i class="fas fa-check-circle"></i> Certifications SAGE</li>
+                                </ul>
+                                <a href="#contact" class="btn btn-formation hvr-grow">
+                                    En savoir plus <i class="fas fa-arrow-right ms-2"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 4: Témoignages -->
+    <section id="temoignages" class="testimonials-section py-5">
+        <div class="container">
+            <div class="row text-center mb-5">
+                <div class="col-12" data-aos="fade-up">
+                    <h2 class="section-title">Ils Témoignent</h2>
+                    <div class="title-underline"></div>
+                    <p class="section-subtitle">Découvrez l'expérience de nos étudiants</p>
+                </div>
+            </div>
+
+            <div id="testimonialsCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="6000">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-4 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="100">
+                                <div class="testimonial-card hvr-float">
+                                    <div class="testimonial-quote">
+                                        <i class="fas fa-quote-left"></i>
+                                    </div>
+                                    <div class="testimonial-stars">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                    </div>
+                                    <p class="testimonial-text">
+                                        "SUPMTI m'a offert une formation d'excellence en ingénierie informatique. Grâce aux certifications CISCO et aux projets pratiques, j'ai décroché un stage dans une multinationale dès ma 3ème année."
+                                    </p>
+                                    <div class="testimonial-author">
+                                        <div class="author-avatar">
+                                            <i class="fas fa-user-graduate"></i>
+                                        </div>
+                                        <div class="author-info">
+                                            <h4>Youssef El Amrani</h4>
+                                            <p>Ingénierie Informatique - Promotion 2023</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-4 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="200">
+                                <div class="testimonial-card hvr-float">
+                                    <div class="testimonial-quote">
+                                        <i class="fas fa-quote-left"></i>
+                                    </div>
+                                    <div class="testimonial-stars">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                    </div>
+                                    <p class="testimonial-text">
+                                        "Le programme de double diplomation avec l'Université de Lorraine m'a permis d'enrichir mon parcours international. L'encadrement pédagogique est vraiment exceptionnel."
+                                    </p>
+                                    <div class="testimonial-author">
+                                        <div class="author-avatar">
+                                            <i class="fas fa-user-graduate"></i>
+                                        </div>
+                                        <div class="author-info">
+                                            <h4>Salma Benkirane</h4>
+                                            <p>Management International - Promotion 2024</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-4 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="300">
+                                <div class="testimonial-card hvr-float">
+                                    <div class="testimonial-quote">
+                                        <i class="fas fa-quote-left"></i>
+                                    </div>
+                                    <div class="testimonial-stars">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                    </div>
+                                    <p class="testimonial-text">
+                                        "Les cours pratiques en finance et audit m'ont donné les compétences nécessaires pour exceller dans mon métier. Je recommande vivement SUPMTI pour la qualité de sa formation."
+                                    </p>
+                                    <div class="testimonial-author">
+                                        <div class="author-avatar">
+                                            <i class="fas fa-user-graduate"></i>
+                                        </div>
+                                        <div class="author-info">
+                                            <h4>Omar Tazi</h4>
+                                            <p>Finance & Audit - Promotion 2023</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-4 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="100">
+                                <div class="testimonial-card hvr-float">
+                                    <div class="testimonial-quote">
+                                        <i class="fas fa-quote-left"></i>
+                                    </div>
+                                    <div class="testimonial-stars">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                    </div>
+                                    <p class="testimonial-text">
+                                        "L'atmosphère multiculturelle à SUPMTI est incroyable. J'ai pu échanger avec des étudiants de plus de 15 nationalités différentes, ce qui a enrichi ma vision du monde des affaires."
+                                    </p>
+                                    <div class="testimonial-author">
+                                        <div class="author-avatar">
+                                            <i class="fas fa-user-graduate"></i>
+                                        </div>
+                                        <div class="author-info">
+                                            <h4>Amina Diallo</h4>
+                                            <p>Étudiante Sénégalaise - En cours</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-4 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="200">
+                                <div class="testimonial-card hvr-float">
+                                    <div class="testimonial-quote">
+                                        <i class="fas fa-quote-left"></i>
+                                    </div>
+                                    <div class="testimonial-stars">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                    </div>
+                                    <p class="testimonial-text">
+                                        "Les laboratoires équipés, les projets en partenariat avec des entreprises et l'accompagnement des professeurs font de SUPMTI une école d'excellence en ingénierie."
+                                    </p>
+                                    <div class="testimonial-author">
+                                        <div class="author-avatar">
+                                            <i class="fas fa-user-graduate"></i>
+                                        </div>
+                                        <div class="author-info">
+                                            <h4>Mehdi Alaoui</h4>
+                                            <p>Réseaux & Télécoms - Promotion 2024</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-4 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="300">
+                                <div class="testimonial-card hvr-float">
+                                    <div class="testimonial-quote">
+                                        <i class="fas fa-quote-left"></i>
+                                    </div>
+                                    <div class="testimonial-stars">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                    </div>
+                                    <p class="testimonial-text">
+                                        "J'ai choisi SUPMTI pour son programme de management international. Aujourd'hui, je travaille dans une grande entreprise européenne grâce aux compétences acquises."
+                                    </p>
+                                    <div class="testimonial-author">
+                                        <div class="author-avatar">
+                                            <i class="fas fa-user-graduate"></i>
+                                        </div>
+                                        <div class="author-info">
+                                            <h4>Leila Mansouri</h4>
+                                            <p>Management - Promotion 2022</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="carousel-indicators testimonial-indicators">
+                    <button type="button" data-bs-target="#testimonialsCarousel" data-bs-slide-to="0" class="active"></button>
+                    <button type="button" data-bs-target="#testimonialsCarousel" data-bs-slide-to="1"></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 5: Partenaires et Coopérations -->
+    <section id="partenaires" class="partners-section py-5">
+        <div class="container">
+            <div class="row text-center mb-5">
+                <div class="col-12" data-aos="fade-up">
+                    <h2 class="section-title">Nos Partenaires</h2>
+                    <div class="title-underline"></div>
+                    <p class="section-subtitle">Des collaborations stratégiques pour votre réussite</p>
+                </div>
+            </div>
+
+            <!-- Partenariats Académiques -->
+            <div class="row mb-5">
+                <div class="col-12" data-aos="fade-up">
+                    <h3 class="partners-category-title">
+                        <i class="fas fa-university me-2"></i>Partenariats Académiques Internationaux
+                    </h3>
+                </div>
+            </div>
+            <div class="row g-4 mb-5">
+                <div class="col-lg-3 col-md-6" data-aos="zoom-in" data-aos-delay="100">
+                    <div class="partner-card hvr-grow">
+                        <div class="partner-logo">
+                            <i class="fas fa-graduation-cap"></i>
+                        </div>
+                        <h4>Université de Lorraine</h4>
+                        <p class="partner-country">France</p>
+                        <p class="partner-type">Double Diplomation</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6" data-aos="zoom-in" data-aos-delay="200">
+                    <div class="partner-card hvr-grow">
+                        <div class="partner-logo">
+                            <i class="fas fa-school"></i>
+                        </div>
+                        <h4>Groupe IGS</h4>
+                        <p class="partner-country">France</p>
+                        <p class="partner-type">Programme d'Échange</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6" data-aos="zoom-in" data-aos-delay="300">
+                    <div class="partner-card hvr-grow">
+                        <div class="partner-logo">
+                            <i class="fas fa-building-columns"></i>
+                        </div>
+                        <h4>ISTEC Paris</h4>
+                        <p class="partner-country">France</p>
+                        <p class="partner-type">Double Diplomation</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6" data-aos="zoom-in" data-aos-delay="400">
+                    <div class="partner-card hvr-grow">
+                        <div class="partner-logo">
+                            <i class="fas fa-landmark"></i>
+                        </div>
+                        <h4>UMI Meknès</h4>
+                        <p class="partner-country">Maroc</p>
+                        <p class="partner-type">Coopération Nationale</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Certifications Professionnelles -->
+            <div class="row mb-5">
+                <div class="col-12" data-aos="fade-up">
+                    <h3 class="partners-category-title">
+                        <i class="fas fa-certificate me-2"></i>Certifications Professionnelles
+                    </h3>
+                </div>
+            </div>
+            <div class="row g-4 mb-5">
+                <div class="col-lg-3 col-md-6" data-aos="flip-left" data-aos-delay="100">
+                    <div class="certification-card hvr-float">
+                        <div class="cert-icon cisco">
+                            <i class="fas fa-network-wired"></i>
+                        </div>
+                        <h4>CISCO</h4>
+                        <p>Networking Academy</p>
+                        <ul class="cert-programs">
+                            <li>CCNA</li>
+                            <li>CCNP</li>
+                            <li>CyberOps</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6" data-aos="flip-left" data-aos-delay="200">
+                    <div class="certification-card hvr-float">
+                        <div class="cert-icon microsoft">
+                            <i class="fab fa-microsoft"></i>
+                        </div>
+                        <h4>MICROSOFT</h4>
+                        <p>Technical Certifications</p>
+                        <ul class="cert-programs">
+                            <li>Azure</li>
+                            <li>Office 365</li>
+                            <li>Power Platform</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6" data-aos="flip-left" data-aos-delay="300">
+                    <div class="certification-card hvr-float">
+                        <div class="cert-icon oracle">
+                            <i class="fas fa-database"></i>
+                        </div>
+                        <h4>ORACLE</h4>
+                        <p>Database & Cloud</p>
+                        <ul class="cert-programs">
+                            <li>SQL Expert</li>
+                            <li>Java SE</li>
+                            <li>Cloud Infrastructure</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6" data-aos="flip-left" data-aos-delay="400">
+                    <div class="certification-card hvr-float">
+                        <div class="cert-icon sage">
+                            <i class="fas fa-chart-pie"></i>
+                        </div>
+                        <h4>SAGE</h4>
+                        <p>Gestion d'Entreprise</p>
+                        <ul class="cert-programs">
+                            <li>Comptabilité</li>
+                            <li>Paie</li>
+                            <li>Gestion Commerciale</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- UMI Partnership Highlight -->
+            <div class="row" data-aos="fade-up">
+                <div class="col-12">
+                    <div class="umi-partnership-highlight">
+                        <div class="row align-items-center">
+                            <div class="col-lg-3 text-center mb-4 mb-lg-0">
+                                <div class="umi-logo-circle">
+                                    <i class="fas fa-handshake"></i>
+                                </div>
+                            </div>
+                            <div class="col-lg-9">
+                                <h3 class="umi-title">
+                                    Coopération Stratégique avec l'Université Moulay Ismaïl
+                                </h3>
+                                <div class="row mt-4">
+                                    <div class="col-md-3 col-6 mb-3">
+                                        <div class="umi-feature">
+                                            <i class="fas fa-book-reader"></i>
+                                            <p>Formation & Recherche</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3 col-6 mb-3">
+                                        <div class="umi-feature">
+                                            <i class="fas fa-lightbulb"></i>
+                                            <p>Innovation & Entrepreneuriat</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3 col-6 mb-3">
+                                        <div class="umi-feature">
+                                            <i class="fas fa-users"></i>
+                                            <p>Échange d'Expertise</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3 col-6 mb-3">
+                                        <div class="umi-feature">
+                                            <i class="fas fa-trophy"></i>
+                                            <p>Excellence Académique</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer / Contact Section -->
+    <footer id="contact" class="footer-section">
+        <div class="footer-top py-5">
+            <div class="container">
+                <div class="row g-4">
+                    <!-- About Column -->
+                    <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+                        <div class="footer-about">
+                            <h3 class="footer-brand">
+                                <span class="brand-text">SUPMTI</span>
+                                <span class="brand-subtitle">Meknès</span>
+                            </h3>
+                            <p class="footer-description">
+                                École supérieure privée de formation en ingénierie et management, accréditée par l'État. 
+                                Nous formons les leaders de demain à travers l'excellence académique et l'innovation.
+                            </p>
+                            <div class="footer-social">
+                                <a href="#" class="social-link hvr-grow" aria-label="Facebook">
+                                    <i class="fab fa-facebook-f"></i>
+                                </a>
+                                <a href="#" class="social-link hvr-grow" aria-label="Instagram">
+                                    <i class="fab fa-instagram"></i>
+                                </a>
+                                <a href="#" class="social-link hvr-grow" aria-label="LinkedIn">
+                                    <i class="fab fa-linkedin-in"></i>
+                                </a>
+                                <a href="#" class="social-link hvr-grow" aria-label="TikTok">
+                                    <i class="fab fa-tiktok"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Quick Links -->
+                    <div class="col-lg-2 col-md-6" data-aos="fade-up" data-aos-delay="200">
+                        <div class="footer-links">
+                            <h4 class="footer-title">Liens Rapides</h4>
+                            <ul>
+                                <li><a href="#accueil" class="hvr-forward">Accueil</a></li>
+                                <li><a href="#statistiques" class="hvr-forward">À propos</a></li>
+                                <li><a href="#formations" class="hvr-forward">Formations</a></li>
+                                <li><a href="#temoignages" class="hvr-forward">Témoignages</a></li>
+                                <li><a href="#partenaires" class="hvr-forward">Partenaires</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Formations -->
+                    <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="300">
+                        <div class="footer-links">
+                            <h4 class="footer-title">Nos Formations</h4>
+                            <ul>
+                                <li><a href="#formations" class="hvr-forward">Ingénierie Informatique</a></li>
+                                <li><a href="#formations" class="hvr-forward">Réseaux & Télécoms</a></li>
+                                <li><a href="#formations" class="hvr-forward">Management</a></li>
+                                <li><a href="#formations" class="hvr-forward">Finance & Audit</a></li>
+                                <li><a href="https://inscriptions.supmtimeknes.ac.ma/" class="hvr-forward">Candidater</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Contact Info -->
+                    <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="400">
+                        <div class="footer-contact">
+                            <h4 class="footer-title">Contactez-nous</h4>
+                            <ul class="contact-info">
+                                <li>
+                                    <i class="fas fa-map-marker-alt"></i>
+                                    <span>Al kobera VN, 35 Rue Badr<br>Meknès, Maroc</span>
+                                </li>
+                                <li>
+                                    <i class="fas fa-phone"></i>
+                                    <a href="tel:+212645627070">06 45 62 70 70</a>
+                                </li>
+                                <li>
+                                    <i class="fas fa-envelope"></i>
+                                    <a href="mailto:contact@supmtimeknes.ac.ma">contact@supmtimeknes.ac.ma</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-md-6 text-center text-md-start">
+                        <p class="footer-copyright mb-0">
+                            © 2026 SUPMTI Meknès. Tous droits réservés.
+                        </p>
+                    </div>
+                    <div class="col-md-6 text-center text-md-end">
+                        <p class="footer-credit mb-0">
+                            Développé avec <i class="fas fa-heart"></i> par Prof. Mouncif Hamza
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scroll to Top Button -->
+    <button id="scrollToTop" class="scroll-to-top hvr-grow" aria-label="Retour en haut">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <!-- AOS Library -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+</body>
+</html>
